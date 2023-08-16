@@ -1,0 +1,43 @@
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+    color: azure;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header section */
+#about h2 {
+    color: rgb(255, 248, 248);
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: azure;
+}
+
+/* Style the image */
+.imageAboutPage {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the skills section */
+#about p.skills {
+    font-size: 14px;
+}
+
+/* Style the declaration section */
+#about p.declaration {
+    font-style: italic;
+    color: #888;
+}
